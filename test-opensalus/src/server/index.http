@@ -1,0 +1,16 @@
+POST http://localhost:3000/api/media HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "Learn Node.js",
+  "language": "javascript",
+  "views": 14000,
+  "nivel": "hard"
+}
+
+###
+
+GET http://localhost:3000/api/media/upload/clipart3407955.png HTTP/1.1
+Content-Type: application/json
+
